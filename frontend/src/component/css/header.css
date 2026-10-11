@@ -1,0 +1,67 @@
+
+
+.custom-navbar {
+    background: linear-gradient(135deg,
+            #cfc8edde 0%,
+            #ad81e381 35%,
+            #987ecd 70%,
+            #6b4bea 100%);
+    padding: 4px 0;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.25);
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.custom-navbar .nav-link {
+    color: rgb(255, 255, 255) !important;
+    /* font-weight: 500; */
+    border-radius: 8px;
+    padding: 6px 12px !important;
+    transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.custom-navbar .dropdown-menu {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.custom-navbar .dropdown-item {
+    padding: 8px 15px;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #e7f1ff;
+}
+
+.custom-navbar .custom-btn {
+    border-radius: 20px;
+    padding: 6px 16px;
+    /* font-weight: 500; */
+}
+
+.main {
+    display: flex;
+    width: 120%;
+    height: 80vh;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: sandybrown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+

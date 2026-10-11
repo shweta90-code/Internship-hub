@@ -1,0 +1,25 @@
+.feedback-card{
+    max-width:500px;
+    height: 60vh;
+    margin:auto;
+    border-radius:15px;
+    background-color: rgba(153, 205, 50, 0.188);
+
+
+}
+
+h2{
+    color:blue;
+    font-weight:bold;
+} 
+
+label{
+    font-weight:600;
+}
+
+.btn{
+    border-radius:8px;
+    width:150px;
+}
+
+

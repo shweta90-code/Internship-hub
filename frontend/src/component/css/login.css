@@ -1,0 +1,24 @@
+.form-login{
+         width:80%;
+    height: 50vh;
+    margin:auto;
+    border-radius:15px;
+    background-color: hsla(344, 86%, 36%, 0.188);
+    text-align: center;
+
+}
+h1{
+    color:black;
+    font-weight:bold;
+    text-align: center;
+} 
+
+label{
+    font-weight:600;
+}
+
+.btn{
+    border-radius:8px;
+    width:150px;
+    
+}

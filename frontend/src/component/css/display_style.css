@@ -1,0 +1,35 @@
+.myFlexContainer {
+    display: flex;
+    flex-wrap:nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.myFlexItem {
+    flex: 1 1 320px;
+    max-width: 380px;
+}
+
+.myFlexItem .card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.myFlexItem .card:hover {
+    transform: translateY(-4px);
+}
+
+.questionBox {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 8px;
+    min-height: 90px;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+    .myFlexItem {
+        max-width: 100%;
+    }
+}

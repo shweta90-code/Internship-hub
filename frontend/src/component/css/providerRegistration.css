@@ -1,0 +1,49 @@
+.provider-page {
+  min-height: 80vh;
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.provider-form {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px #ddd;
+}
+
+.provider-form h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.provider-form p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.provider-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.provider-form input {
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.provider-form button {
+  padding: 11px;
+  border: none;
+  border-radius: 5px;
+  background: #4263eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
